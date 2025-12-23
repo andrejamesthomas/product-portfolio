@@ -46,3 +46,14 @@ Users did not perceive the targeted workflow as a primary problem. While some fr
 
 In several interviews, users explicitly stated that they would not change their behaviour for the proposed solution, even if it were available.
 
+## 6. Options and Trade-offs
+
+| Option | Description | Pros | Cons |
+|------|-------------|------|------|
+| A — Proceed as planned | Deliver the originally scoped feature | Protects roadmap commitments | Low expected adoption; weak value |
+| B — Reduce scope | Ship a lighter version | Lower delivery cost | Still misaligned with real need |
+| C — Pivot to adjacent problem (selected) | Redirect effort to validated pain point | Higher user value; stronger adoption | Breaks original plan; stakeholder friction |
+| D — Cancel initiative | Stop delivery entirely | Avoids waste | No visible outcome; sunk cost |
+
+Option A was rejected due to clear misalignment with user needs.  
+Option D was considered but rejected due to available opportunity to redirect effort meaningfully.
