@@ -67,16 +67,16 @@ A key UX decision was to hide the feature entirely for ineligible users instead 
 This decision faced initial pushback from stakeholders concerned about reduced launch reach, but reliability and trust were treated as non-negotiable product requirements.
 
 ## 7. Delivery Approach
-We delivered in phases:
-1. Define eligibility criteria and capability contract (what must be true to safely enable the feature).
-2. Implement gating controls (server-side checks + controlled rollout mechanism).
-3. Launch to a small eligible cohort, monitor reliability and support signals, then scale.
-4. Document the pattern (playbook) so future teams can reuse the approach.
+Delivery was structured in phases:
+- Define eligibility criteria and capability contract.
+- Implement server-side gating and controlled rollout mechanisms.
+- Launch to a small eligible cohort and monitor reliability and support signals.
+- Scale rollout progressively and document the pattern for reuse.
 
-Collaboration:
-- Engineering: defined the capability contract and failure-safe behaviour.
-- Support/Operations: aligned on expected user-visible outcomes and escalation paths.
-- Stakeholders: agreed on eligibility-based rollout criteria and communication plan.
+Cross-functional alignment:
+- Engineering: defined failure-safe behaviour and capability checks.
+- Operations/Support: aligned on expected user-visible outcomes and escalation thresholds.
+- Stakeholders: agreed on eligibility-based success criteria and communication boundaries.
 
 ## 8. Metrics and Impact
 We tracked success using a combination of adoption and guardrail metrics:
