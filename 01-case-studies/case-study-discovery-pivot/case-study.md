@@ -30,11 +30,19 @@ This assumption was treated as sufficiently validated based on indirect signals,
 Discovery activities were initiated to validate the core assumptions before committing to full delivery.
 
 Key assumptions:
-- Users clearly recognised the targeted workflow as a problem area. [Inference]
-- The proposed feature addressed the primary source of friction. [Inference]
-- Users would adopt a new solution if it reduced theoretical effort. [Inference]
+- Users clearly recognised the targeted workflow as a problem area.
+- The proposed feature addressed the primary source of friction.
+- Users would adopt a new solution if it reduced theoretical effort.
 
 Discovery activities included:
 - Qualitative user interviews focused on recent workflow experiences.
 - Review of behavioural data related to task completion and drop-off.
-- Mapping the full user journey to identify actual pain points.
+- Mapping the full user journey to identify actual pain points.\
+
+## 5. Key Insight
+Discovery invalidated the core assumption.
+
+Users did not perceive the targeted workflow as a primary problem. While some friction existed, it was not a decisive factor in their overall experience. More importantly, users consistently highlighted a different, adjacent problem as significantly more painful and time-consuming.
+
+In several interviews, users explicitly stated that they would not change their behaviour for the proposed solution, even if it were available.
+
