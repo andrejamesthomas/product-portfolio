@@ -79,18 +79,18 @@ Cross-functional alignment:
 - Stakeholders: agreed on eligibility-based success criteria and communication boundaries.
 
 ## 8. Metrics and Impact
-We tracked success using a combination of adoption and guardrail metrics:
+Success was evaluated using both adoption and guardrail metrics.
 
 Leading indicators:
-- Eligible user activation rate
-- Feature success rate (happy-path completion)
+- Activation rate among eligible users
+- Successful execution rate on the happy path
 
 Guardrails:
-- Error rate / rejected commands for feature-related operations
-- Support contact rate for feature-related topics
-- Incident rate linked to feature activation attempts on legacy versions
+- Feature-related error rate (target: no statistically significant increase vs baseline)
+- Support contact rate related to the feature (target: within normal variance)
+- Incident rate triggered by feature activation attempts on ineligible versions (target: zero)
 
-We considered the rollout successful if adoption increased among eligible users while guardrail metrics remained within predefined thresholds.
+The rollout was considered successful if adoption increased within the eligible cohort without breaching any guardrail thresholds.
 
 ## 9. Outcome and Learnings
 What worked well:
