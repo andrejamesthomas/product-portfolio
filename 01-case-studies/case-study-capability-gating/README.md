@@ -94,18 +94,18 @@ The rollout was considered successful if adoption increased within the eligible 
 
 ## 9. Outcome and Learnings
 What worked well:
-- Gating prevented predictable failure modes and reduced operational uncertainty.
-- A phased rollout created confidence and shortened feedback loops.
+- Capability gating eliminated predictable failure modes.
+- Phased rollout reduced uncertainty and shortened feedback loops.
 
 What did not work as expected:
-- Some stakeholders initially underestimated the user perception impact of “not available” messaging. [Inference]
-- Eligibility definitions required iteration to match real-world edge cases.
+- Eligibility definitions required multiple iterations to cover real-world edge cases.
+- Stakeholders underestimated the perception impact of feature unavailability messaging.
 
 What we would do differently:
-- Invest earlier in user-facing communication for ineligible cohorts to reduce frustration.
-- Formalise the eligibility model sooner as a shared platform capability (not a one-off feature rule).
-
+- Invest earlier in clear user-facing communication for ineligible cohorts.
+- Formalise the eligibility model as a shared platform capability from the start, rather than embedding it in a single feature.
+  
 ## 10. Open Questions or Next Steps
-- Should eligibility be exposed as a reusable platform service for all teams?
-- Can we create a standardised user-facing pattern for “capability unavailable” to improve consistency?
-- What is the cost/benefit threshold for investing in backward compatibility for legacy cohorts?
+- Should eligibility and capability checks become a first-class platform service?
+- Can we standardise user-facing patterns for “capability unavailable” scenarios?
+- At what point does backward compatibility investment become justified based on cohort size and value?
