@@ -57,3 +57,14 @@ In several interviews, users explicitly stated that they would not change their 
 
 Option A was rejected due to clear misalignment with user needs.  
 Option D was considered but rejected due to available opportunity to redirect effort meaningfully.
+
+## 7. Product Decision
+We chose to pivot the initiative towards the adjacent, validated user problem, even though it required redefining scope, success criteria, and stakeholder expectations.
+
+This decision meant:
+- Deprioritising previously agreed functionality.
+- Reframing the initiative narrative from “solution delivery” to “problem redefinition”.
+- Accepting short-term delivery discomfort in favour of long-term product value.
+
+The pivot was explicitly communicated as a discovery-driven decision, supported by qualitative and behavioural evidence.
+
