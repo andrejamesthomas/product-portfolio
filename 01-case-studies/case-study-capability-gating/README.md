@@ -36,16 +36,23 @@ The core challenge was delivering value to eligible users without degrading reli
 - Avoid confusing behaviour for ineligible users (no broken flows, no silent failures).
 
 ## 4. Discovery and Assumptions
-Key discovery work focused on understanding capability distribution, failure modes, and operational impact.
+Discovery focused on capability distribution, operational risk, and user perception.
 
-- Assumption A: A meaningful percentage of the installed base is technically eligible for the feature. [Inference]
-- Assumption B: Enabling the feature on ineligible versions leads to predictable failure patterns (timeouts, rejected commands, inconsistent state). [Inference]
-- Assumption C: Users interpret partial failures as product instability, increasing support contacts and trust erosion. [Inference]
+Key assumptions:
+
+* Only a minority of the installed base was technically eligible at launch (~30–40%).
+
+* Enabling the feature on ineligible versions leads to systematic, not random, failure modes.
+
+* Users interpret partial failures as product instability rather than version incompatibility.
 
 Validation activities included:
-- Mapping version/capability coverage across the installed base (eligibility segmentation).
-- Reviewing historical incident and support data for similar “unsupported command” patterns.
-- Aligning with engineering on the minimal reliable capability contract required for the feature.
+
+* Mapping version and capability coverage across the installed base.
+
+* Reviewing historical support and incident patterns for similar unsupported-command scenarios.
+
+Aligning with engineering on the minimal capability contract required to guarantee safe execution.
 
 ## 5. Options and Trade-offs
 
